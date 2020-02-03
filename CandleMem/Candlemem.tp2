@@ -1,0 +1,20 @@
+BACKUP ~CandleMem/backup~
+AUTHOR ~Roxanne@baldursextendedworld.com based on Charles Bisson's CtB Chores~
+
+AUTO_TRA ~CandleMem/TRA/%s~
+
+VERSION ~v0.1~
+
+LANGUAGE ~English~ ~english~ ~CandleMem/TRA/English/setup.tra~
+
+BEGIN ~Candlekeep Memories~
+
+COPY ~CandleMem/are~ ~override~
+COPY ~CandleMem/tis~ ~override~
+COPY ~CandleMem/spl~ ~override~
+COPY ~CandleMem/cre~ ~override~
+
+EXTEND_BOTTOM ~library.bcs~ ~CandleMem/extend/Library.BAF~
+
+COMPILE ~CandleMem/baf~
+COMPILE ~CandleMem/d~

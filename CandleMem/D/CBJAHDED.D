@@ -1,0 +1,15 @@
+BEGIN ~CBJAHDED~
+BEGIN ~CBKAHDED~
+
+CHAIN
+IF ~Global("CbCutscene3511","AR3511",0)~ THEN CBJAHDED Retro
+@1
+DO ~SetGlobal("CbCutscene3511","AR3511",6)~ 
+==CBKAHDED @6
+==CBJAHDED @2
+==CBJAHDED @3
+==CBJAHDED @4
+==CBKAHDED @7
+==CBJAHDED @5
+DO ~Wait(1)ClearAllActions()StartCutSceneMode()StartCutScene("CBCT3512")~ EXIT
+
