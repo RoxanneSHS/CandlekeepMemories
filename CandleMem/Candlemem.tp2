@@ -3,9 +3,10 @@ AUTHOR ~Roxanne@baldursextendedworld.com based on Charles Bisson's CtB Chores~
 
 AUTO_TRA ~CandleMem/TRA/%s~
 
-VERSION ~v0.1~
+VERSION ~v0.2~
 
 LANGUAGE ~English~ ~english~ ~CandleMem/TRA/English/setup.tra~
+LANGUAGE ~Russian (by Arcanecoast.ru)~ ~russian~ ~CandleMem/TRA/Russian/setup.tra~
 
 BEGIN ~Candlekeep Memories~
 
